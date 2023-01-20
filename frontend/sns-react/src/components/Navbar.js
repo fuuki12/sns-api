@@ -29,7 +29,7 @@ const Navbar = (props) => {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h5" className={classes.title}>
-          SNS App
+          Fuki App
         </Typography>
         <Badge
           className={classes.bg}

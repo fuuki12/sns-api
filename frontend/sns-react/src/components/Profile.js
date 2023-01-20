@@ -36,7 +36,6 @@ const Profile = ({ profileData, askData }) => {
 
       <CardContent style={{ padding: 5 }}>
         <Typography variant="h6">{profileData.nickName}</Typography>
-        <Typography>{profileData.created_on}</Typography>
         {!askData[0] && profile.id ? (
           <Button
             size="small"
