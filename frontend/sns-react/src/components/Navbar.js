@@ -26,7 +26,7 @@ const Navbar = (props) => {
     window.location.href = "/";
   };
   return (
-    <AppBar position="static">
+    <AppBar color="secondary" position="static">
       <Toolbar>
         <Typography variant="h5" className={classes.title}>
           Fuki App
